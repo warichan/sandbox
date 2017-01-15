@@ -1,6 +1,6 @@
 # CakePHP初期セット
 - Cakephpをインストールしたら、ディレクトリの配下にwho.phpを作成
-- 作成したwho.phpに `<?php echo \`whoami\`; ?>` を記述
+- 作成したwho.phpに ``<?php echo `whoami`; ?>`` を記述
 - ビルドインウェブサーバーを起動してブラウザでwho.phpにアクセスすると、CakePHPを動かしているユーザーが表示される
 - ターミナルで`sudo chown -R CakePHPを動かしているユーザー名 CakePHPのディレクトリ名/app/tmp` を入力
 - パスワードを入力
