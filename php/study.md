@@ -5,6 +5,9 @@
 - ターミナルでsudo chown -R CakePHPを動かしているユーザー名 CakePHPのディレクトリ名/app/tmp を入力
 - パスワードを入力
 
+# 「'Security.salt'」と「'Security.cipherSeed'」を変更する
+- app/Config/core.phpの「'Security.salt'」「'Security.cipherSeed'」を変更する必要がある(「'Security.salt'」は半角英数字、「'Security.cipherSeed'」には半角数字を入力/初期設定から変更する)
+
 # DBの設定
 - ターミナルでMysqlにrootでログインし、DBを作成
 - ユーザを設定する(grant all on DB名.* to ユーザー名@localhost identified by 'パスワード';)
