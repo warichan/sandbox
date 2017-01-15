@@ -10,3 +10,6 @@
 - ユーザを設定する(grant all on DB名.* to ユーザー名@localhost identified by 'パスワード';)
 - CakePHPのディレクトリapp/Config内のdatabase.php.defaultを複製してdatabase.phpを作成
 - database.phpの末尾辺りのpublic $defaultの(host/login/password/database)の情報を修正
+
+# cssが上手く反映されていない
+-  app/View/Layouts/defaultのecho $this->Html->css('cake.generic');をecho $this->Html->css('/app/webroot/css/cake.generic');に修正
