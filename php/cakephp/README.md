@@ -17,3 +17,7 @@
 
 # cssが上手く反映されていない
 -  app/View/Layouts/defaultの`echo $this->Html->css('cake.generic');`を`echo $this->Html->css('/app/webroot/css/cake.generic');`に修正
+
+# timezoneのエラーが出た時
+- date_default_timezone_setを使って設定する
+ - `date_default_timezone_set('Asia/Tokyo');` 
