@@ -29,3 +29,11 @@ You are using PHP 5.5.36 (/usr/bin/php).`
 - wget https://phar.phpunit.de/phpunit.phar
 
 ↑は最新のPHPUnitを取得するので、PHP5.5(>=)の場合はPHPUnitは4.8系を使う(pharファイルはphpunit-4.8.27.phar)
+
+インストール
+
+- wget https://phar.phpunit.de/phpunit-4.8.27.phar --no-check-certificate
+
+- chmod +x phpunit-4.8.27.phar
+
+- sudo mv phpunit-4.8.27.phar /usr/local/bin/phpunit
