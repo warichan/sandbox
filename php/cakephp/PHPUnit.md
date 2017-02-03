@@ -37,3 +37,11 @@ You are using PHP 5.5.36 (/usr/bin/php).`
 - chmod +x phpunit-4.8.27.phar
 
 - sudo mv phpunit-4.8.27.phar /usr/local/bin/phpunit
+
+## コマンドラインからのテスト実行
+
+- ./app/Console/cake test core AllTests
+  - コマンドラインからCakePHP全体のテストを行うコマンド
+
+↑を実行すると`include(PHPUnit/Autoload.php): failed to open stream: No such file or directory in〜`というWarningが出てしまい、
+`Please install PHPUnit framework v3.7`つまり、PHPUnit3.7をインストールするようにエラー文言が表示される。
