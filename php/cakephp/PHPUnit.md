@@ -76,7 +76,7 @@ You are using PHP 5.5.36 (/usr/bin/php).`
   - composerをダウンロード
 
 - `　php composer.phar install`
-  - app/Vendor配下にPHPUnitディレクトリが作成される
+  - app/Vendor配下にPHPUnitディレクトリが作成される
 
 - `require_once ROOT . DS . 'app' . DS . 'Vendor' . DS . 'PHPUnit' . DS . 'autoload.php';`
-  - CakePHP側でPHPUnitを読み込んでいるパスを書き換える(app/Config/bootstrap.php)
+  - CakePHP側でPHPUnitを読み込んでいるパスを書き換える(app/Config/bootstrap.php)
