@@ -2,6 +2,10 @@
 
 ## PHP Archive(pear)を使ったインストール
 
+※以下のようにpearを使ったインストールが一般的らしいが、
+Pearから最新のPHPUnit（バージョン4.x）をダウンロードすると、CakePHPからPHPUnitを認識するために必要なファイルが解凍されない問題が発生するので、
+Composerを使ってインストールするのがよい。
+
 - wget https://phar.phpunit.de/phpunit.phar
   - エラー: phar.phpunit.de の証明書は信用されません。
   - エラー: phar.phpunit.de の証明書の発行者が不明です。
@@ -45,3 +49,7 @@ You are using PHP 5.5.36 (/usr/bin/php).`
 
 ↑を実行すると`include(PHPUnit/Autoload.php): failed to open stream: No such file or directory in〜`というWarningが出てしまい、
 `Please install PHPUnit framework v3.7`つまり、PHPUnit3.7をインストールするようにエラー文言が表示される。
+
+ーーーーーーーーーー
+
+## Composerを使ったインストール
