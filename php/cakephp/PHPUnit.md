@@ -53,3 +53,30 @@ You are using PHP 5.5.36 (/usr/bin/php).`
 ーーーーーーーーーー
 
 ## Composerを使ったインストール
+
+- `cd app/Vendor`
+  - PHPUnitをインストールしたいフォルダへ移動
+  
+- `vi composer.json`
+  - ↑で作ったcomposer.jsonに以下を記述
+  
+```php
+{
+  "name": "phpunit",
+　　  "description": "PHPUnit",
+　　  "require": {
+　　　    "phpunit/phpunit": "3.7.*"
+　　  },
+　　  "config": {
+　　　    "vendor-dir": "app/Vendor/PHPUnit"
+　　  }
+　}
+ ```
+- `wget http://getcomposer.org/composer.phar`
+  - composerをダウンロード
+
+- `　php composer.phar install`
+  - app/Vendor配下にPHPUnitディレクトリが作成される
+
+- `require_once ROOT . DS . 'app' . DS . 'Vendor' . DS . 'PHPUnit' . DS . 'autoload.php';`
+  - CakePHP側でPHPUnitを読み込んでいるパスを書き換える(app/Config/bootstrap.php)
