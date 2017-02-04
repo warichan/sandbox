@@ -1,6 +1,6 @@
 # PHPUnit
 
-PHP Archive(pear)を使ったインストール
+## PHP Archive(pear)を使ったインストール
 
 - wget https://phar.phpunit.de/phpunit.phar
   - エラー: phar.phpunit.de の証明書は信用されません。
@@ -30,7 +30,7 @@ You are using PHP 5.5.36 (/usr/bin/php).`
 
 ↑は最新のPHPUnitを取得するので、PHP5.5(>=)の場合はPHPUnitは4.8系を使う(pharファイルはphpunit-4.8.27.phar)
 
-PHP Archive(pear)を使ったインストール
+## PHP Archive(pear)を使ったインストール(PHPUnitのversion指定)
 
 - wget https://phar.phpunit.de/phpunit-4.8.27.phar --no-check-certificate
 
