@@ -19,6 +19,7 @@
 
 ※Postモデルであれば__PostsController__となる
 
+# Helper
 ## FormHelper
 echo $this->Form->create('モデル名');
 
