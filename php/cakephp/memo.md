@@ -14,6 +14,10 @@
 
 ※PostsControllerのindexアクションであれば、__Posts__フォルダに__index.ctp__ファイルを作成する
 
+## Controller
+関連させるモデル名を複数形にしたもの
+
+※Postモデルであれば__PostsController__となる
 
 ## FormHelper
 echo $this->Form->create('モデル名');
