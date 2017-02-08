@@ -23,7 +23,7 @@
  - `date_default_timezone_set('Asia/Tokyo');` 
  
 # DebugKit is not installed. It will help you inspect and debug different aspects of your application.　You can install it from GitHub
-- (DebugKitがインストールされていません。これは、アプリケーションのさまざまな側面を検査し、デバッグするのに役立ちます。GitHubからインストールできます。)
+- (訳：DebugKitがインストールされていません。これは、アプリケーションのさまざまな側面を検査し、デバッグするのに役立ちます。GitHubからインストールできます。)
 - リンクされている[Github](https://github.com/cakephp/debug_kit/tree/2.2)にアクセスし、`clone or download`をクリック
 - `Download ZIP`をクリックし、ダウンロードされたファイルを`DebugKit`という名前にリネームし、CakePHPの`/app/Plugin/`ディレクトリに入れる
 - CakePHPの`app/Config/bootstrap.php`ファイルの`CakePlugin::load('DebugKit');`がコメントアウトされているので、コメントを外す
