@@ -21,3 +21,6 @@
 # timezoneのエラーが出た時
 - date_default_timezone_setを使って設定する(Config/core.php)
  - `date_default_timezone_set('Asia/Tokyo');` 
+ 
+# DebugKit is not installed. It will help you inspect and debug different aspects of your application.　You can install it from GitHub
+- (DebugKitがインストールされていません。これは、アプリケーションのさまざまな側面を検査し、デバッグするのに役立ちます。GitHubからインストールできます。)
