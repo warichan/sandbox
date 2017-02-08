@@ -19,6 +19,29 @@
 
 ※Postモデルであれば__PostsController__となる
 
+----------
+
+# 拡張
+## Model
+```
+<?php
+  class モデル名 extends AppModel{
+  
+  }
+?>
+```
+
+## Controller
+```
+<?php
+  class コントローラ名　extends AppController{
+  
+  }
+?>
+```
+
+----------
+
 # Helper
 ## FormHelper
 echo $this->Form->create('モデル名');
