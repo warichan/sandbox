@@ -42,6 +42,14 @@
 
 ----------
 
+# タイトル
+viewファイルに以下を設定する
+```
+<?php $this->assign('title', 'タイトルに表示する文字'); ?>
+```
+-----------
+
+
 # Helper
 ## FormHelper
 echo $this->Form->create('モデル名');
