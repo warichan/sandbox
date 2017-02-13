@@ -49,6 +49,15 @@ viewファイルに以下を設定する
 ```
 -----------
 
+# scaffold
+## scaffoldを実行した際に、作成されるアクション
+- index
+- view
+- edit
+- add
+- delete
+
+----------
 
 # Helper
 ## FormHelper
